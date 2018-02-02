@@ -14,6 +14,7 @@
         android:layout_above="@+id/textView3"
         android:layout_centerHorizontal="true"
         android:text="Plant Monitor"
+        android:textColor="@android:color/black"
         android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -35,6 +36,7 @@
         android:layout_height="wrap_content"
         android:layout_above="@+id/progressBar2"
         android:layout_centerHorizontal="true"
-        android:text="Loading..." />
+        android:text="Loading..."
+        android:textColor="@android:color/black" />
 
 </RelativeLayout>
