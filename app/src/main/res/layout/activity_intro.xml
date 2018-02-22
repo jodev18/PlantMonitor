@@ -4,6 +4,86 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:padding="12dp"
     tools:context="dev.jojo.plantmonitor.IntroActivity">
 
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Your Name:"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/etUserName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter your name..."
+                android:inputType="textPersonName"
+                android:selectAllOnFocus="true"
+                android:singleLine="true" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Your plant's name:"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/etPlantName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter your plant's name..."
+                android:inputType="textPersonName"
+                android:selectAllOnFocus="true"
+                android:singleLine="true" />
+
+            <TextView
+                android:id="@+id/textView11111"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Plant Scientific Name:"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/etPlantSciName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Plant's scientific name..."
+                android:inputType="textPersonName" />
+
+            <Button
+                android:id="@+id/btnSavePlant"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:text="Save"
+                android:textColor="@color/colorAccent"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </ScrollView>
 </RelativeLayout>

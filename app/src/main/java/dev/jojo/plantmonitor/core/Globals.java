@@ -7,4 +7,5 @@ package dev.jojo.plantmonitor.core;
 public class Globals {
 
     public static final String PREF_HAS_REGISTERED = "pref_has_registered";
+    public static final String PREF_HAS_OBTAINED_PERMISSION = "pref_has_permission";
 }

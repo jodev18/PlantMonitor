@@ -16,7 +16,21 @@ public class PlantInfoDB extends SQLiteOpenHelper {
     }
 
     protected class PlantTable{
-       // public static final SS
+
+        public static final String TABLE_NAME = "tbl_plant_info";
+
+        public static final String ID = "_id";
+
+        public static final String SOIL_MOISTURE = "plant_soil_moisture";
+
+        public static final String WATER_LEVEL = "plant_water_level";
+
+        public static final String HUMIDITY = "plant_humidity";
+
+        public static final String TEMPERATURE = "plant_temp";
+
+        public static final String TABLE_CREATE = "CREATE TABLE " ;//+
+
     }
 
     @Override

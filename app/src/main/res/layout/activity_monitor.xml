@@ -19,6 +19,36 @@
             android:orientation="vertical"
             android:weightSum="1">
 
+            <TextView
+                android:id="@+id/tvUserName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="User Name"
+                android:textAlignment="center"
+                android:textColor="@color/colorAccent"
+                android:textSize="36sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvPlantName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Plant Name"
+                android:textAlignment="center"
+                android:textColor="@color/colorAccent"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvScientificName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Scientific name"
+                android:textAlignment="center"
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
@@ -55,13 +85,27 @@
                 android:textAlignment="center"
                 android:textColor="@color/colorAccent"
                 android:textSize="18sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:paddingTop="16dp"
+                android:paddingBottom="16dp"/>
 
             <com.jjoe64.graphview.GraphView
                 android:id="@+id/graph1"
                 android:layout_width="match_parent"
                 android:layout_height="200dip"
                 android:background="@color/colorPrimaryDark" />
+
+            <Button
+                android:id="@+id/btnWaterPlant"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimaryDark"
+                android:text="Water Plant"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimary"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:visibility="gone" />
 
 
         </LinearLayout>
